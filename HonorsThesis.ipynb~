@@ -35,7 +35,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
+   "execution_count": 1,
    "metadata": {
     "collapsed": true
    },
@@ -69,7 +69,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 4,
+   "execution_count": 2,
    "metadata": {
     "collapsed": true
    },
@@ -121,7 +121,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 3,
    "metadata": {
     "collapsed": true
    },
@@ -171,7 +171,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
+   "execution_count": 4,
    "metadata": {
     "collapsed": true
    },
@@ -203,7 +203,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
+   "execution_count": 5,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -227,7 +227,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 6,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -264,7 +264,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
+   "execution_count": 7,
    "metadata": {},
    "outputs": [],
    "source": [
@@ -358,7 +358,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 14,
    "metadata": {
     "scrolled": true
    },
@@ -548,7 +548,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 8,
    "metadata": {
     "collapsed": true
    },
@@ -579,7 +579,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 11,
+<<<<<<< HEAD
+   "execution_count": 9,
+=======
+   "execution_count": 19,
+>>>>>>> new-stuff
    "metadata": {
     "collapsed": true
    },
@@ -598,7 +602,7 @@
     "#Find the first date field, hit tab and hit '01'. \n",
     "#This sets the date to the first day of the month\n",
     "#today = datetime.today()\n",
-    "today = datetime(2017, 4, 30)\n",
+    "today = datetime(2018, 3, 31)\n",
     "month_string = str(today.month).zfill(2)\n",
     "first_date_string = month_string + '01' + str(today.year)\n",
     "second_date_string = str(today.month).zfill(2) + str(today.day).zfill(2) + str(today.year)\n",
@@ -630,7 +634,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 12,
+<<<<<<< HEAD
+   "execution_count": 10,
+=======
+   "execution_count": 20,
+>>>>>>> new-stuff
    "metadata": {
     "collapsed": true
    },
@@ -655,7 +663,11 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 13,
+<<<<<<< HEAD
+   "execution_count": 11,
+=======
+   "execution_count": 21,
+>>>>>>> new-stuff
    "metadata": {
     "scrolled": true
    },
@@ -676,43 +688,35 @@
       "Damaged                  float64\n",
       "Summary                   object\n",
       "dtype: object\n",
-      "ALCOHOL - MINOR IN POSSESSION\n",
       "NARCOTICS - POSSESSION\n",
-      "LARCENY - FROM BUILDING\n",
-      "SEX OFFENSE - RAPE\n",
-      "AUTO THEFT\n",
-      "ALCOHOL - LIQUOR LICENSE VIOLATION\n",
-      "ALCOHOL - USING FALSE I.D.\n",
-      "ACCIDENTS - INJURY\n",
-      "ACCIDENTS - P.D. NOT REPORTABLE\n",
-      "ACCIDENTS - P.D. H&R NOT REPORTABLE\n",
-      "LARCENY - FROM MOTOR VEHICLE\n",
-      "SUSPICIOUS ITEM OR PACKAGE (NON-EXPLOSIVE)\n",
-      "DISTURBANCE - OTHER\n",
-      "ALCOHOL - DRUNK\n",
-      "LARCENY - STOLEN BIKE\n",
-      "SEX OFFENSE - MOLEST/FONDLING\n",
-      "TRAFFIC - SUSPENDED DRIVER\n",
-      "ASSAULT - DOMESTIC\n",
-      "LARCENY - MOTOR VEH. ACCESSORIES\n",
-      "BURGLARY\n",
-      "FRAUD - CREDIT CARDS/ATM/BANK CARD\n",
-      "VANDALISM - OTHER\n",
-      "TRESPASSING\n",
       "LOST OR STOLEN ITEM\n",
-      "PORNOGRAPHY\n",
-      "OUTSIDE - O.P.S. OTHER\n",
-      "LARCENY - SHOPLIFTING\n",
+      "ALCOHOL - DRUNK\n",
       "MEDICAL EMERGENCY\n",
-      "SS - CHECK WELFARE OF PERSON\n",
-      "STALKING\n",
-      "ACCIDENTS - P.D. H&R REPORTABLE\n",
-      "ALCOHOL - DWI\n",
-      "OUTSIDE CRIME - REPORTS OUTSIDE JURISDICTION\n",
-      "LARCENY - OTHER OR FROM OPEN AREA\n",
+      "FORGERY - COUNTERFEIT MONEY/COINS\n",
+      "LARCENY - STOLEN BIKE\n",
+      "TRAFFIC - SUSPENDED DRIVER\n",
+<<<<<<< HEAD
+      "DISTURBANCE - OTHER\n",
+      "TRAFFIC - OTHER\n",
       "PROPERTY DAMAGE - UNINTENTIONAL,NON TRAFFIC\n",
+      "ALCOHOL - MINOR IN POSSESSION\n"
+=======
+      "LARCENY - FROM BUILDING\n",
+      "ALCOHOL - UNL POLICY VIOLATION\n",
       "FALSE INFORMATION - GIVEN TO OFC.\n",
-      "VANDALISM - BY GRAFFITI\n"
+      "FRAUD - CREDIT CARDS/ATM/BANK CARD\n",
+      "FIRE (WORKING) - NO ALARM\n",
+      "VANDALISM - BY GRAFFITI\n",
+      "LARCENY - OTHER OR FROM OPEN AREA\n",
+      "DISTURBANCE - DOMESTIC\n",
+      "FIRE - FALSE ALARM\n",
+      "SUSPICIOUS PERSON\n",
+      "TRESPASSING\n",
+      "STALKING\n",
+      "TRAFFIC - OTHER\n",
+      "FRAUD - IMPERSONATION\n",
+      "NARCOTICS - SALE/DELIVER\n"
+>>>>>>> new-stuff
      ]
     }
    ],
@@ -733,7 +737,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
+   "execution_count": 12,
    "metadata": {
     "collapsed": true
    },
@@ -752,18 +756,20 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
+<<<<<<< HEAD
+   "execution_count": 13,
+=======
+   "execution_count": 22,
+>>>>>>> new-stuff
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "This month, there have been 2.0 ALCOHOL - DWI incidents reported. There are normally 8.67 incidents reported in a month, and one standard deviation below is 3.97.\n",
-      "This month, there have been 7.0 FRAUD - CREDIT CARDS/ATM/BANK CARD incidents reported. There are normally 1.16 incidents reported in a month, and one standard deviation above is 2.53.\n",
-      "This month, there have been 11.0 BURGLARY incidents reported. There are normally 1.92 incidents reported in a month, and one standard deviation above is 4.38.\n",
-      "This month, there have been 13.0 ALCOHOL - DRUNK incidents reported. There are normally 8.47 incidents reported in a month, and one standard deviation above is 12.93.\n",
-      "This month, there have been 18.0 LARCENY - STOLEN BIKE incidents reported. There are normally 7.82 incidents reported in a month, and one standard deviation above is 13.36.\n"
+      "This month, there have been 2.0 LOST OR STOLEN ITEM incidents reported. There are normally 6.73 incidents reported in a month, and one standard deviation below is 2.9.\n",
+      "This month, there have been 17.0 NARCOTICS - POSSESSION incidents reported. There are normally 9.77 incidents reported in a month, and one standard deviation above is 16.46.\n",
+      "This month, there has been 1.0 NARCOTICS - SALE/DELIVER incident reported. There are normally 0.26 incidents reported in a month, and one standard deviation above is 0.91.\n"
      ]
     }
    ],
